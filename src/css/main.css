@@ -6,20 +6,22 @@
 }
 
 .main .progCurso {
-    width: 1400px;
-    height: 495px;
+    width: 100%;
     background-color: #294380;
     border-radius: 30px;
-    margin: 174px 0;
+    margin: 174px  auto;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 37px 48px;
+    padding: 0 48px;
 }
 
 .main .progCurso .textos {
     margin-left: 94px;
+    width: 500px;
 }
 
 .progCurso .textos .titulo {
@@ -82,6 +84,7 @@
 .paraquem {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .paraquem .btnParaQuem {
@@ -99,11 +102,13 @@
     font-size: 60px;
     line-height: 73px;
     color: #d9d9d9;
+    text-align: center;
 }
 
 .niveisCursos {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -161,10 +166,10 @@
 }
 
 .suasHabilidades {
-    width: 1400px;
-    height: 865px;
+    width: 100%;
     background-color: #f66b40;
-    margin: 0 auto;
+    margin: 0 auto 174px auto;
+    padding-bottom: 50px;
 }
 
 .suasHabilidades .tituloHabilidades {
@@ -222,11 +227,10 @@
 .habilidades .habilidade h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .habilidades .habilidade p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
