@@ -234,3 +234,79 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
+
+.projFinais,
+.progDoCurso {
+    display: flex;
+    margin-bottom: 174px;
+}
+
+.projFinais h1,
+.progDoCurso h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #f2643d;
+}
+
+.projFinais img,
+.progDoCurso img {
+    margin: 25px -20px 0 5px;
+}
+
+.projFinaisImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.projFinaisImgs img {
+    width: 500px;
+    height: 319.23px;
+    margin-bottom: 40px;
+}
+
+.progDoCursoCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.progDoCursoCont .conteudo {
+    width: 400px;
+    height: 279px;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    background-color: #294380;
+}
+
+.progDoCursoCont .conteudo .titulo {
+    display: flex;
+    padding: 33px 19px;
+}
+
+.conteudo .titulo h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #f2643d;
+}
+
+.conteudo .titulo img {
+    height: 29px;
+    width: 29px;
+    margin: 10px 0 0 8px;
+}
+
+.conteudo ol {
+    margin-left: 29px;
+}
+
+.conteudo ol li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #d9d9d9;
+    margin-left: 29px;
+    margin-bottom: 12px;
+}
